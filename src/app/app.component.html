@@ -1,3 +1,13 @@
-<h1>
-  {{title}}
-</h1>
+<header>
+  <h1>{{title}}</h1>
+  <h3>nesting component</h3>
+  <nav>
+    <ul>
+      <li>Link 1 </li>
+      <li>Link 2 </li>
+    </ul>
+  </nav>
+</header>
+<section id="main">
+    <app-home [animal]="animals" (onListen) = "fire($event)">Test Purpose</app-home>
+</section>
