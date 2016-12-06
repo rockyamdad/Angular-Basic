@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import {ROUTE} from "./app.routes";
 import { CoursesComponent } from './courses/courses.component';
 import { CourseListComponent } from './courses/course-list/course-list.component';
+import { CourseDetailComponent } from './courses/course-detail/course-detail.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CourseListComponent } from './courses/course-list/course-list.component
     HomeComponent,
     ContactComponent,
     CoursesComponent,
-    CourseListComponent
+    CourseListComponent,
+    CourseDetailComponent
   ],
   imports: [
     BrowserModule,
