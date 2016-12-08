@@ -10,7 +10,7 @@ export class CourseListComponent implements OnInit {
   constructor() { }
 
   courses = [
-    { name: 'Trekking', path: ['/courses','trekk','passion']},
+    { name: 'Trekking', path: '/courses/rocky/umal'},
     { name: 'Photography', path: ['/courses','photo','try']},
     { name: 'Travelling', path: ['/courses','travel','hobby']},
   ];
